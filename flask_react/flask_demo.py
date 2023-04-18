@@ -75,7 +75,7 @@ def get_documents():
 
 @app.route("/")
 def home():
-    return "Hello, World! Welcome to the llama_index docker image!"
+    return "AI Lawyer Server!"
 
 
 if __name__ == "__main__":

@@ -2,12 +2,12 @@
 
 $theme-colors: (
   primary: #edfbf1,
-  secondary: #bee08b,
+  secondary: #bcbfb2,
   secondary-hover: #83aa49,
   text-main: #000000,
   text-contrast: #ffffff,
-  header-big-block: #f35f2b,
-  header-narrow-block: #00f596,
+  header-big-block: #624c46,
+  header-narrow-block: #f6faf9,
 );
 
 @function theme-color($key) {
