@@ -2,8 +2,7 @@ import os
 import pickle
 
 # NOTE: for local testing only, do NOT deploy with your key hardcoded
-#os.environ['OPENAI_API_KEY'] = "your key here"
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = "your key here"
 
 
 from multiprocessing import Lock
