@@ -30,7 +30,7 @@ def query_index(_index, query_text):
 
 st.title("AI Lawyer")
 st.header("Welcome to AI Lawyer Demo answers all the legal issues")
-st.write("Enter a query about Nigeria Laws ans Reports. Your query will be answered from the Nigeria Laws as context, using embeddings from text-ada-002 a")
+st.write("Enter a query about Nigeria Laws ans Reports. Your query will be answered from the Nigeria Laws as context, using embeddings from text-ada-002 ")
 
 index = None
 api_key = st.text_input("Enter your OpenAI API key here:", type="password")
